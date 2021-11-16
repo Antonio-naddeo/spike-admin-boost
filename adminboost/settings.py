@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'grappelli', #this line has to be before 'django.contrib.admin'
     'djangoql',
+    'advanced_filters',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
